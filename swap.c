@@ -26,11 +26,11 @@ int main() {
     }
 
     for (i = 0; i < 9; i++) {
-        printf("arr[%d]: \n", arr[i]);
+        printf("arr[%d]: %d\n", i, arr[i]);
     }
 
     for (i = 0; i < 9; i++) {
-        printf("arr2[%d]: \n", arr2[i]);
+        printf("arr2[%d]: \n", i, arr2[i]);
     }
 
 
