@@ -26,10 +26,12 @@ int main() {
         temp--;
     }
 
+    // print arr
     for (i = 0; i < 10; i++) {
         printf("arr[%d]: %d\n", i, arr[i]);
     }
 
+    // print arr2, which is in reverse
     for (i = 0; i < 10; i++) {
         printf("arr2[%d]: %d\n", i, arr2[i]);
     }
