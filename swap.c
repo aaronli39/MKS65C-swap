@@ -14,23 +14,24 @@ int main() {
 
     // populate first array with randoms
     int i;
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 10; i++) {
         arr[i] = rand();
-    } arr[9] = 0; // set last value to 0
+    }
+    arr[9] = 0; // set last value to 0
 
     // printf("array[8]: %d\n", arr[8]);
     int temp = 9;
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 10; i++) {
         *(arr2 + i) = *(arr + temp);
         temp--;
     }
 
-    for (i = 0; i < 9; i++) {
+    for (i = 0; i < 10; i++) {
         printf("arr[%d]: %d\n", i, arr[i]);
     }
 
-    for (i = 0; i < 9; i++) {
-        printf("arr2[%d]: \n", i, arr2[i]);
+    for (i = 0; i < 10; i++) {
+        printf("arr2[%d]: %d\n", i, arr2[i]);
     }
 
 
