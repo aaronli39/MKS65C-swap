@@ -25,6 +25,9 @@ int main() {
         temp--;
     }
 
+    for (i = 0; i < 9; i++) {
+        printf("arr[%d]: \n", arr[i]);
+    }
 
     for (i = 0; i < 9; i++) {
         printf("arr2[%d]: \n", arr2[i]);
